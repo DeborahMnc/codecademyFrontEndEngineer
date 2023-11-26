@@ -1,0 +1,125 @@
+* {
+    background-color: black;
+    color: rgba(255, 245, 238, 0.9);
+    font-family: 'Helvetica';
+}
+
+p {
+    font-size: 22px;
+}
+
+header {
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    top: 0;
+    left: 0;
+    background: black;
+    z-index: 6;
+}
+
+.navigation {
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: underline;
+    float: right;
+    margin: 10px;
+    text-align: center;
+}
+
+li {
+    align-items: center;
+    padding: 10px;
+    font-size: 22px;
+    
+}
+
+.logo {
+    height: 50px;
+    margin: 10px;
+}
+
+main {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mission {
+    background-image: url(./images/img-mission-background.jpg) ;
+    background-color: black;
+    background-size: 1200px 700px;
+    width: 1200px;
+    height: 700px;
+}
+
+.mission h2, h4{
+    display: flex;
+    justify-content: center;
+}
+
+.month {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.month img {
+    height: 200px;
+    width: 300px;
+}
+
+.sorten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+}
+
+.locations {
+    background-image: url(./images/img-locations-background.jpg);
+    background-size: 100% 500px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1200px;
+    height: 500px;
+
+}
+
+.locations h2 {
+    background: none;
+    color: black;
+}
+
+.shops {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.downtown {
+    height: 300px;
+    width: 300px;
+}
+
+.east-bayside {
+    height: 300px;
+    width: 300px;
+}
+
+.oakdale {
+    height: 300px;
+    width: 300px;
+}
+
+.the-tea-cozy {
+    height: 200px;
+}
+
+footer {
+    margin-left: 20px;
+}
